@@ -1,17 +1,22 @@
-# Hey, I’m Santiago — Web Developer Student
+<h1>Hey, I’m Santiago — Web Developer Student</h1>
 
-I build clean, accessible web apps and bring a solid IT foundation to every project.
-I’m currently studying **Web Development** and hold a **CompTIA A+** certification.
+<p>I build clean, accessible web apps and bring a solid IT foundation to every project.
+I’m currently studying <strong>Web Development</strong> and hold a <strong>CompTIA A+</strong> certification.</p>
 
-## What I Do
-- **Front-End:** Responsive UI, semantic HTML, modern CSS, JavaScript.
-- **Back-End (basics):** REST APIs, Node.js/Express, MongoDB.
-- **IT & Support:** Hardware/OS troubleshooting, networking fundamentals, ticketing, imaging—**CompTIA A+** verified.
+<h2>What I Do</h2>
 
+<ul>
+<li><strong>Front-End:</strong> Responsive UI, semantic HTML, modern CSS, JavaScript.</li>
+<li><strong>Back-End (basics):</strong> REST APIs, Node.js/Express, MongoDB.</li>
+<li><strong>IT &amp; Support:</strong> Hardware/OS troubleshooting, networking fundamentals, ticketing, imaging—<strong>CompTIA A+</strong> verified.</li>
+</ul>
 
-## Tech Stack
-- **Languages:** HTML, CSS (Flexbox/Grid), JavaScript, C#
-- **UI:** Figma
-- **DevOps (intro):** CLI, Linux basics, VS Code, and learning NeoVim
+<h2>Tech Stack</h2>
 
-[Home](./index.markdown) · [Contact](./contact.markdown)
+<ul>
+<li><strong>Languages:</strong> HTML, CSS (Flexbox/Grid), JavaScript, C#</li>
+<li><strong>UI:</strong> Figma</li>
+<li><strong>DevOps (intro):</strong> CLI, Linux basics, VS Code, and learning NeoVim</li>
+</ul>
+
+<p><a href="./index.markdown">Home</a> · <a href="./contact.markdown">Contact</a></p>
