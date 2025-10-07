@@ -1,4 +1,13 @@
-<h1>Hey, I’m Santiago — Web Developer Student</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Porfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hey, I’m Santiago — Web Developer Student</h1>
 
 <p>I build clean, accessible web apps and bring a solid IT foundation to every project.
 I’m currently studying <strong>Web Development</strong> and hold a <strong>CompTIA A+</strong> certification.</p>
@@ -20,3 +29,6 @@ I’m currently studying <strong>Web Development</strong> and hold a <strong>Com
 </ul>
 
 <p><a href="./index.markdown">Home</a> · <a href="./contact.markdown">Contact</a></p>
+</body>
+</html>
+
