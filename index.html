@@ -1,34 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scepeday Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Santiago Cepeda • Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<header>
-    <div class="wrap">
-      <div class="sitebar">
-        <div class="logo">Santiago Cepeda</div>
-        <nav aria-label="Main">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">SANTIAGO CEPEDA</div>
+
+      <div class="nav-right">
+        <nav class="nav-links">
+          <a href="#hero">Home</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#about">About</a>
         </nav>
+        <a href="#contact" class="btn btn-small">Say Hello</a>
       </div>
     </div>
   </header>
 
-   <main class="wrap">
-    <div class="content">
-        <h1>What am I doing here?</h1>
-        <h3>This is my Static Website using Github. I am basically going to host some of my work here.
-            I am a student at Humber in the Web Development Program and yeah, from time to time I will be adding better projects and I don't know,
-            maybe see all my progress from this day, until I get an intership.</h3>
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+  <div class="container hero-content">
+    <div class="hero-window">
+      <!-- background image (your vintage window) -->
+      <img
+        src="images/hero-window.png"
+        alt="Creative developer / IT support technician window"
+        class="hero-image"
+      />
+
+      <!-- overlayed text + button -->
+      <div class="hero-overlay">
+        <h1 class="hero-title">
+          CREATIVE DEVELOPER / IT SUPPORT<br />
+          TECHNICIAN
+        </h1>
+
+        <div class="hero-tags">
+          <span>DESIGN</span>
+          <span>•</span>
+          <span>DEVELOPMENT</span>
+          <span>•</span>
+          <span>WEBFLOW</span>
+        </div>
+
+        <a href="#portfolio" class="btn hero-btn">
+          See My Portfolio
+          <span class="hero-arrow">⌄</span>
+        </a>
+      </div>
     </div>
+  </div>
+</section>
+
+
+    <!-- ABOUT / INTRO -->
+    <section class="intro" id="about">
+      <div class="container intro-grid">
+        <div class="intro-main">
+          <p class="eyebrow">SANTIAGO • CEPEDA</p>
+          <h1>Web Developer and IT Support Technician</h1>
+          <p class="intro-text">
+            I build clean, accessible web apps and bring a solid IT foundation
+            to every project. I’m currently studying Web Development and hold a
+            CompTIA A+ certification.
+          </p>
+        </div>
+
+        <div class="intro-meta">
+          <div class="meta-row">
+            <div class="meta-block">
+              <span class="meta-label">Location</span>
+              <span class="meta-value">Toronto</span>
+            </div>
+            <div class="meta-block">
+              <span class="meta-label">What I do</span>
+              <span class="meta-value">
+                Full Stack Developer / IT Support
+              </span>
+            </div>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Languages</h3>
+              <p>Java, JavaScript, C#, HTML/CSS</p>
+            </article>
+
+            <article class="skill-card">
+              <h3>UI</h3>
+              <p>Figma / Adobe Suite</p>
+            </article>
+
+            <article class="skill-card">
+              <h3>DevOps</h3>
+              <p>CLI, Linux, Git, Docker</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="section-title">MY • PORTFOLIO</h2>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card">
+            <div class="portfolio-image-wrapper">
+              <img
+                src="images/portfolio-1.jpg"
+                alt="History website project"
+              />
+            </div>
+            <div class="portfolio-content">
+              <p class="tag">DEVELOPMENT</p>
+              <h3>History Website</h3>
+              <p>
+                Responsive multi-page informational site built with semantic
+                HTML and modern CSS, focusing on accessibility and clear
+                typography.
+              </p>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="portfolio-image-wrapper">
+              <img
+                src="images/portfolio-2.jpg"
+                alt="Photography app project"
+              />
+            </div>
+            <div class="portfolio-content">
+              <p class="tag">DESIGN</p>
+              <h3>Photography App</h3>
+              <p>
+                Interface concept for a minimalist photo gallery app, designed
+                with clean UI components and subtle motion.
+              </p>
+            </div>
+          </article>
+
+          <article class="portfolio-card">
+            <div class="portfolio-image-wrapper">
+              <img
+                src="images/portfolio-3.jpg"
+                alt="Interesting app project"
+              />
+            </div>
+            <div class="portfolio-content">
+              <p class="tag">DEVELOPMENT</p>
+              <h3>Interesting App</h3>
+              <p>
+                Small React-style prototype recreated in vanilla JS, showing
+                reusable components and API integration patterns.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">CONTACT • ME</h2>
+
+        <div class="contact-grid">
+          <!-- LEFT SIDE: INFO BOXES -->
+          <div class="contact-info">
+            <div class="contact-card">
+              <h3>Connect with me</h3>
+              <p>Let’s talk about your next project or collaboration.</p>
+              <div class="social-links">
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="GitHub">GitHub</a>
+              </div>
+            </div>
+
+            <div class="contact-details">
+              <div class="contact-card small">
+                <h4>Email</h4>
+                <p>cepedas.dev@gmail.com</p>
+              </div>
+              <div class="contact-card small">
+                <h4>Phone</h4>
+                <p>+1 (647) 123-4567</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT SIDE: FORM -->
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="you@example.com"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                rows="6"
+                placeholder="Tell me about your project..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn form-btn">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Santiago Cepeda</p>
+      <div class="footer-links">
+        <ul>
+          <li><a href="https://github.com/Scepeday" target="_blank">Github Logo</a></li>
+            <li><a href="https://www.linkedin.com/in/santiagocepeda/" target="_blank">Linkedin Logo</a></li>
+        </ul>
+        <a href="#hero">Top ↑</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
+
