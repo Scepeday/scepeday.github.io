@@ -68,6 +68,7 @@ section {
   cursor: pointer;
 }
 
+
 .nav-toggle-label span {
   display: block;
   height: 2px;
@@ -146,7 +147,7 @@ section {
 
 .hero-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;   /* important: stack frame + button */
   align-items: center;
 }
 
@@ -218,6 +219,7 @@ section {
 .hero-arrow {
   margin-left: 0.4rem;
 }
+
 
 /* INTRO / ABOUT */
 
@@ -530,9 +532,6 @@ textarea:focus {
   transform: translateY(-1px);
 }
 
-/* RESPONSIVE */
-
-/* Phone (around 320px) */
 @media (max-width: 360px) {
   body {
     font-size: 0.9rem;
@@ -579,7 +578,6 @@ textarea:focus {
   }
 
   .meta-row {
-    grid-template-columns: 1fr;
     display: none;
   }
 
@@ -624,7 +622,8 @@ textarea:focus {
   }
 }
 
-/* Tablet (768px and up) */
+
+
 @media (min-width: 768px) {
   section {
     padding: 4rem 0;
