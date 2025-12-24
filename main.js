@@ -28,6 +28,31 @@
     });
   }
 
+  // Mobile nav toggle
+  const menuBtn = document.getElementById("menuBtn");
+  const navPanel = document.getElementById("navPanel");
+  const topbar = document.querySelector(".topbar");
+  if (menuBtn && navPanel && topbar) {
+    const closeMenu = () => {
+      topbar.classList.remove("is-open");
+      menuBtn.setAttribute("aria-expanded", "false");
+    };
+
+    menuBtn.addEventListener("click", () => {
+      const isOpen = topbar.classList.toggle("is-open");
+      menuBtn.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    navPanel.addEventListener("click", (event) => {
+      const link = event.target.closest("a");
+      if (link) closeMenu();
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 640) closeMenu();
+    });
+  }
+
   // Footer year
   const year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
