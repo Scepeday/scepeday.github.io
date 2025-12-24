@@ -1,4 +1,4 @@
-# Static Portfolio Website
+# Portfolio Website
 
 A lightweight, static portfolio site built with plain **HTML, CSS, and JavaScript** and hosted on **GitHub Pages**. Because it's only front-end base technology, it's easy to adapt this project to your own content and styling without extra tooling.
 
