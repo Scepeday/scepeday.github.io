@@ -1,3 +1,4 @@
 [submodule "pixel-invaders"]
 	path = pixel-invaders
 	url = https://github.com/Scepeday/pixel-invaders
+	branch = main
